@@ -29,7 +29,7 @@
 
                 <div class="new_todo">
 
-                    <input type="text" placeholder="Nuovo Todo" v-model="newElement" @keyup.enter="addElement">
+                    <input type="text" placeholder="Aggiungi una nuova attività" v-model="newElement" @keyup.enter="addElement">
 
                     <button @click="addElement">Aggiungi</button>
 
@@ -57,7 +57,7 @@
 
                     </ul>
 
-                    <h3 v-else>Aggiungi attività alla tua lista</h3>
+                    <h3 v-else>Non ci sono nuove attività in programma</h3>
 
                 </div>
 
